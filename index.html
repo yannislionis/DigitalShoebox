@@ -1,29 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="shoeboxApp">
 <head>
-    <title>DigitalShoebox</title>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
-    <script type="text/javascript" src="./bower_components/angular/angular.js"></script>
+<title>DigitalShoebox</title>
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css"/>
+	<link rel="stylesheet" href="/css/site.css"/>
+	<script type="text/javascript" src="/bower_components/angular/angular.js"></script>
+	<script src="/bower_components/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="/js/app.js"></script>
+	<script type="text/javascript" src="/js/controllers.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-<div class="container">
-    <div class="well">
-        6 March 2014<br/>
-        Addison Cars<br/>
-        &pound;25.00
-    </div>
-    <div class="well">
-        6 March 2014<br/>
-        Pizza Express<br/>
-        &pound;87.64
-    </div>
-    <div class="well">
-        6 March 2014<br/>
-        Cafe Nero<br/>
-        &pound;5.65
-    </div>
-</div>
+<div ng-view></div>
 </body>
 
 
