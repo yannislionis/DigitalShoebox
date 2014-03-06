@@ -1,10 +1,7 @@
-<div class="page-header"></div>
-<div class="container">
-	<div ng-repeat="tr in transactions">
-		<div class="lloyds well" ng-click="">
-			<span class="light-green">{{tr.date}}</span><br/>
-			<strong>{{tr.benificiary}}</strong><br/>
-			<span>{{tr.amount|currency:"&pound; "}}</span>
-		</div>
+<div ng-repeat="tr in transactions" ng-click="$location.path('transactions/' + tr.id)">
+	<div class="lloyds well">
+		<span class="light-green">{{tr.date}}</span><br/>
+		<strong>{{tr.benificiary}}</strong><br/>
+		<span>{{tr.amount|currency:"&pound; "}}</span>
 	</div>
 </div>

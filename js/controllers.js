@@ -1,5 +1,9 @@
 var shoeboxAppControllers = angular.module('shoeboxAppControllers', []);
-shoeboxAppControllers.controller('TransactionListController', ['$scope', function($scope) {
+shoeboxAppControllers.controller('TransactionListController',
+	['$scope', '$location', '$log', function($scope, $location, $log) {
+	
+	$scope.$location = $location;
+
 	$scope.transactions = [
 		{
 			'id': 1,
