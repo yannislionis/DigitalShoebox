@@ -1,4 +1,4 @@
-var shoeboxApp = angular.module('shoeboxApp', ['ngRoute', 'shoeboxAppControllers']);
+var shoeboxApp = angular.module('shoeboxApp', ['ngRoute', 'shoeboxAppControllers', 'mockDataService']);
 
 shoeboxApp.config(['$routeProvider',
 	function($routeProvider){
@@ -6,11 +6,11 @@ shoeboxApp.config(['$routeProvider',
 		// set up routing
 		$routeProvider.
 			when('/transactions', {
-				templateUrl: '/partials/translist.html',
+				templateUrl: '/partials/trlist.html',
 				controller: 'TransactionListController'
 			}).
 			when('/transactions/:transactionId', {
-				templateUrl: '/partials/transdetails.html',
+				templateUrl: '/partials/trdetails.html',
 				controller: 'TransactionDetailsController'
 			}).
 			otherwise({
