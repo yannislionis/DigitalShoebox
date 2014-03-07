@@ -1,4 +1,14 @@
-<div>
-	<h1>Transaction Details</h1>
-	<input type="file" capture="camera" accept="image/*" id="takePictureField">
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h1>Upload receipt</h1>
+		<h4>{{transaction.date}} - {{transaction.benificiary}} - {{transaction.amount | currency:"&pound; "}}<h4>
+	</div>
+	<div class="panel-body">
+		<form role="form">
+			<div class="form-group">
+				<input type="file" capture="camera" accept="image/*" name="..."/>
+			</div>
+			<button type="button" class="btn btn-default">Upload</button>
+		</form>
+	</div>
 </div>

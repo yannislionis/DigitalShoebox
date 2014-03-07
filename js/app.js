@@ -1,4 +1,7 @@
-var shoeboxApp = angular.module('shoeboxApp', ['ngRoute', 'shoeboxAppControllers', 'mockDataService']);
+var shoeboxApp = 
+	angular.module(
+		'shoeboxApp',
+		['ngRoute', 'shoeboxAppControllers', 'mockDataService']);
 
 shoeboxApp.config(['$routeProvider',
 	function($routeProvider){
