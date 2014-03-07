@@ -1,0 +1,13 @@
+<div class="lloyds panel panel-default">
+	<div class="lloyds panel-heading">
+		<h4>{{transaction.date}}</h4>
+		<h4>{{transaction.benificiary}}</h4>
+		<h4>{{transaction.amount | currency:"&pound; "}}</h4>
+	</div>
+	<div class="panel-body">
+		<img width="100%" src="receipt.jpg" />
+	</div>
+	<div class="panel-footer lloyds">
+		<button class="btn btn-danger">Cancel</button><button class="btn btn-default pull-right">Confirm</button>
+	</div>
+</div>

@@ -1,5 +1,5 @@
-<div class="panel panel-default">
-	<div class="panel-heading">
+<div class="lloyds panel panel-default">
+	<div class="lloyds panel panel-heading">
 		<h1>Upload receipt</h1>
 		<h4>{{transaction.date}} - {{transaction.benificiary}} - {{transaction.amount | currency:"&pound; "}}<h4>
 	</div>
@@ -8,7 +8,7 @@
 			<div class="form-group">
 				<input type="file" capture="camera" accept="image/*" ng-file-select="onFileSelect($files)"/>
 			</div>
-			<button type="button" class="btn btn-default">Upload</button>
+			<button type="button" class="btn btn-default" ng-click="$location.path('/confirm/cbf515e8d9e5b025b5efad031102efcc')">Upload</button>
 		</form>
 		<img width="100%" ng-src="{{imageSource}}" />
 		<progress>{{progress}}</progress>

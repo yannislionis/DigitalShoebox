@@ -9,8 +9,8 @@ shoeboxAppControllers.controller('TransactionListController',
 }]);
 
 shoeboxAppControllers.controller('TransactionDetailsController',
-	['$scope', '$routeParams', 'fileReader', 'TransactionData', 
-		function($scope, $routeParams, fileReader, TransactionData) {
+	['$scope', '$routeParams', '$location', 'fileReader', 'TransactionData', 
+		function($scope, $routeParams, $location, fileReader, TransactionData) {
 
 			$scope.transaction =
 				TransactionData.get('', $routeParams.transactionId)
@@ -20,7 +20,11 @@ shoeboxAppControllers.controller('TransactionDetailsController',
 				fileReader.readAsDataUrl($scope.file, $scope)
 			.then(function(result) {
 				$scope.imageSource = result;
-			});
-			};
+			});};
+		$scope.$location = $location;
 
+		$scope.confirm = function () {
+			$location = $location.path('/confirm/' + $routeParams.transactionId)
+		}
+			
 }]);

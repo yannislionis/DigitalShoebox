@@ -16,6 +16,10 @@ shoeboxApp.config(['$routeProvider',
 				templateUrl: '/partials/trdetails.html',
 				controller: 'TransactionDetailsController'
 			}).
+			when('/confirm/:transactionId', {
+				templateUrl: '/partials/confirm.html',
+				controller: 'TransactionDetailsController'
+			}).
 			otherwise({
 				redirectTo: '/transactions'
 			});
