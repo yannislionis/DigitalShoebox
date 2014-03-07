@@ -1,7 +1,7 @@
 <div ng-repeat="tr in transactions" ng-click="$location.path('transactions/' + tr.id)">
 	<div class="lloyds well">
-		<span class="light-green">{{tr.date}}</span><br/>
-		<strong>{{tr.benificiary}}</strong><br/>
-		<span>{{tr.amount|currency:"&pound; "}}</span>
+		<span class="light-green">Date: {{tr.date}}</span><br/>
+		<strong>Benificiary: {{tr.benificiary}}</strong><br/>
+		<span>Amount: {{tr.amount|currency:"&pound; "}}</span>
 	</div>
 </div>
