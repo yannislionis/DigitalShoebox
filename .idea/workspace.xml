@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.16935484" vertical-offset="0" max-vertical-offset="620">
+            <state line="16" column="27" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -91,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trdetails.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="trdetails.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/trdetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="50" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="345">
+            <state line="12" column="18" selection-start="441" selection-end="441" vertical-scroll-proportion="0.29032257" vertical-offset="0" max-vertical-offset="620">
               <folding />
             </state>
           </provider>
@@ -122,9 +122,9 @@
         <option value="$PROJECT_DIR$/upload.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/testupload.html" />
-        <option value="$PROJECT_DIR$/partials/trdetails.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/partials/trdetails.html" />
       </list>
     </option>
   </component>
@@ -469,13 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/trdetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="50" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="40" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1050">
@@ -485,7 +478,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.16935484" vertical-offset="0" max-vertical-offset="620">
+        <state line="16" column="27" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/trdetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="441" selection-end="441" vertical-scroll-proportion="0.29032257" vertical-offset="0" max-vertical-offset="620">
           <folding />
         </state>
       </provider>
