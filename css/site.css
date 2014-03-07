@@ -1,7 +1,18 @@
 .light-green {
 	color: #5abd19;
 }
+.dark-green {
+ 	color: #00864f;
+}
+.large-font {
+ 	font-size: large;
+}
 .lloyds.well {
 	background-color: #00864f;
 	color: white;
+}
+
+.lightgrey.well {
+	background-color: #E6E6E6;
+	color: rod;
 }
