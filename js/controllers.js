@@ -9,8 +9,8 @@ shoeboxAppControllers.controller('TransactionListController',
 }]);
 
 shoeboxAppControllers.controller('TransactionDetailsController',
-	['$scope', '$routeParams', 'MockData', 
-		function($scope, $routeParams, MockData) {
+	['$scope', '$routeParams', 'fileReader', 'MockData', 
+		function($scope, $routeParams, fileReader, MockData) {
 
 			$scope.transaction =
 				MockData.get('', parseInt($routeParams.transactionId))
@@ -23,12 +23,4 @@ shoeboxAppControllers.controller('TransactionDetailsController',
 			});
 			};
 
-			shoeboxApp.directive("ngFileSelect",function(){
-			return {
-				link: function($scope,el){
-						el.bind("change", function(e){
-								$scope.file = (e.srcElement || e.target).files[0];
-								$scope.getFile();
-							})
-					}}});
 }]);
