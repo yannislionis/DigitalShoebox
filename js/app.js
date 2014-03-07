@@ -46,7 +46,7 @@ var UploadController = function ($scope, fileReader) {
 
 };
 
-app.directive("ngFileSelect",function(){
+shoeboxApp.directive("ngFileSelect",function(){
 
   return {
     link: function($scope,el){
