@@ -1,7 +1,12 @@
+<img width="100%" src="img/lloyds.jpg"/>
+<h3>Outstanding Transactions</h3>
+<hr/>
 <div ng-repeat="tr in transactions" ng-click="$location.path('transactions/' + tr.id)">
-	<div class="lloyds well">
-		<span class="light-green">Date: {{tr.date}}</span><br/>
-		<strong>Benificiary: {{tr.benificiary}}</strong><br/>
-		<span>Amount: {{tr.amount|currency:"&pound; "}}</span>
-	</div>
+    <div class="lightgrey well">
+        <span class="large-font"><strong>{{tr.benificiary}}</strong></span><br/>
+        <span>{{tr.date}}</span><br/>
+        <span class="dark-green large-font"><strong>{{tr.amount|currency:"&pound; "}}</strong></span>
+    </div>
 </div>
+
+

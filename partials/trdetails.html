@@ -1,6 +1,8 @@
-<div class="lloyds panel panel-default">
-	<div class="lloyds panel panel-heading">
-		<h1>Upload receipt</h1>
+<img width="100%" src="img/lloyds.jpg"/>
+<h3>Upload receipt</h3>
+<hr/>
+<div class="panel panel-default">
+	<div class="panel-heading">
 		<h4>{{transaction.date}} - {{transaction.benificiary}} - {{transaction.amount | currency:"&pound; "}}<h4>
 	</div>
 	<div class="panel-body">
@@ -11,7 +13,7 @@
 			<button type="button" class="btn btn-default" ng-click="$location.path('/confirm/cbf515e8d9e5b025b5efad031102efcc')">Upload</button>
 		</form>
 		<img width="100%" ng-src="{{imageSource}}" />
-		<progress>{{progress}}</progress>
+
 
 	</div>
 </div>
